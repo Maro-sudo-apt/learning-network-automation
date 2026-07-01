@@ -1,31 +1,32 @@
-OSI Model
+# OSI Model
+
 OSI is a seven-layer framework that describes how data moves from one device to another across a network. It also helps find where the problem might be using this framework, so it's helpful for troubleshooting. Mnemonic: "All People Seem To Need Data Pizza"
+
 Layers of OSI (Open Systems Interconnection):
 
-Application — where the user interacts (browser, email, apps). Not the app itself, but the network services the app uses.
-Presentation — formats/translates/encrypts data so both sides understand it.
-Session — opens, manages, and closes the connection between two devices.
-Transport — breaks data into segments. Two main protocols:
+1. **Application** — where the user interacts (browser, email, apps). Not the app itself, but the network services the app uses.
+2. **Presentation** — formats/translates/encrypts data so both sides understand it.
+3. **Session** — opens, manages, and closes the connection between two devices.
+4. **Transport** — breaks data into segments. Two main protocols:
+   - TCP = reliable, guarantees delivery (used when accuracy matters — file downloads, web pages)
+   - UDP = fast, no delivery guarantee (used when speed matters more — video calls, streaming)
+5. **Network** — handles IP addressing + routing. Decides the best path for data across different networks. Routers operate here.
+6. **Data Link** — handles MAC addresses, moves data across a single local network. Switches operate here.
+7. **Physical** — the actual cables, signals, radio waves. Raw bits (1s and 0s) physically moving.
 
-TCP = reliable, guarantees delivery (used when accuracy matters — file downloads, web pages)
-UDP = fast, no delivery guarantee (used when speed matters more — video calls, streaming)
+# TCP/IP Model
 
-
-Network — handles IP addressing + routing. Decides the best path for data across different networks. Routers operate here.
-Data Link — handles MAC addresses, moves data across a single local network. Switches operate here.
-Physical — the actual cables, signals, radio waves. Raw bits (1s and 0s) physically moving.
-
-TCP/IP Model
 TCP/IP is a 4-layer framework that the internet runs on. Same concept as OSI, but its application layer is a compressed version — meaning it doesn't ignore what the presentation and session layers do, it just combines them. Same with the Network Access layer, which compresses the data link and physical layers of the OSI model.
 
-Application layer — where the user interacts and protocols operate.
-Transport layer — same as OSI.
-Internet/Network layer — same as OSI.
-Network Access layer — how data actually moves across the physical/local network.
+1. **Application layer** — where the user interacts and protocols operate.
+2. **Transport layer** — same as OSI.
+3. **Internet/Network layer** — same as OSI.
+4. **Network Access layer** — how data actually moves across the physical/local network.
 
-TCP/IP vs OSI Model
+# TCP/IP vs OSI Model
+
 OSI is built to help you understand networking concepts — it teaches you the fundamentals and helps you think about where to look. Basically, this model is for learning what's happening in the network. TCP/IP is where the actual work happens — it's what's really running on the internet, your PC, your router. Although they're the same concept at their core, OSI is more detailed and teaches the fundamentals by breaking things into 7 layers, while TCP/IP is more practical and compressed.
 
-OSI is a mental framework for teaching and troubleshooting — a detailed map.
-TCP/IP is the actual protocol that makes data transmission happen.
-OSI's vocabulary is used to talk about problems, but TCP/IP's protocols are what you're literally troubleshooting.
+- OSI is a mental framework for teaching and troubleshooting — a detailed map.
+- TCP/IP is the actual protocol that makes data transmission happen.
+- OSI's vocabulary is used to talk about problems, but TCP/IP's protocols are what you're literally troubleshooting.
