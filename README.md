@@ -22,17 +22,25 @@ Progress
 Networking (CCNA)
 
  OSI Model & networking fundamentals
+ 
  IP addressing & subnetting
+ 
  VLANs & trunking
+ 
  Routing (static + OSPF)
+ 
  ACLs & NAT
+ 
  CCNA exam
 
 Python / Automation
 
  Python basics (syntax, loops, functions)
+ 
  File handling & scripting
+ 
  Network device automation (netmiko)
+ 
  First automation project (NetWatch)
 
 Projects
