@@ -15,8 +15,7 @@ Part of what makes this interesting to me is understanding how ad blocking and D
 
 Latest Update
 
-(edit this line every time you update — most recent first)
-[Month, Year] — Just started! Setting up CCNA study plan and Packet Tracer.
+July, 2026 — Just started! Setting up CCNA study plan and Packet Tracer.
 
 Progress
 
