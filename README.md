@@ -16,6 +16,7 @@ Part of what makes this interesting to me is understanding how ad blocking and D
 Latest Update
 
 July, 2026 — Just started! Setting up CCNA study plan and Packet Tracer.
+July, 2026 — Taken notes on OSI vs. TCP/IP model.
 
 Progress
 
